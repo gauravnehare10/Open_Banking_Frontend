@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  .button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .button.selected {
+    background-color: #0077b6;
+    color: #fff;
+  }
+  
+  .submit-button {
+    padding: 10px 30px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .response {
+    margin-top: 20px;
+    color: #555;
+  }
+  

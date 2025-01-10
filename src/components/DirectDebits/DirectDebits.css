@@ -1,0 +1,53 @@
+.direct-debits-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .heading-main {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .direct-debits-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .direct-debit-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .direct-debit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .direct-debit-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .previous-payment h4 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .direct-debit-card p {
+    margin: 5px 0;
+  }
+  
+  .previous-payment p {
+    margin: 5px 0;
+  }
+  
